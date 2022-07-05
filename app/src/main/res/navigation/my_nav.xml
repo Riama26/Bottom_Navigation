@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/favFragment">
+
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="com.riama.bottomnavigation.FavFragment"
+        android:label="Favorit"
+        tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/musikFragment"
+        android:name="com.riama.bottomnavigation.MusikFragment"
+        android:label="Music"
+        tools:layout="@layout/fragment_musik" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.riama.bottomnavigation.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news" />
+</navigation>
